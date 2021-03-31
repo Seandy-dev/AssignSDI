@@ -9,34 +9,24 @@ package za.ac.cput;
 public class Dog {
 
     private String name;
-    private int age;
 
     public Dog() {
     }
 
-    public Dog(String n, int a) {
+    public Dog(String n) {
         this.name = n;
-        this.age = a;
     }
 
     public void setName(String n) {
         name = n;
     }
 
-    public void setAge(int a) {
-        age = a;
-    }
-
     public String getName() {
         return name;
     }
 
-    public int getAge() {
-        return age;
-    }
-
     @Override
     public String toString() {
-        return "Dog{" + "name=" + name + ", age=" + age + '}';
+        return "Dog{" + "name=" + '}';
     }
 }
